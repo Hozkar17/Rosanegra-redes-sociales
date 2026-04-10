@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosa Negra - Contacto</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #000; color: white; text-align: center; margin: 0; padding: 0px; }
-        .logo {width: 100vw; height: auto; margin-bottom: 20px; border-radius: 0; }
-        .contenedor { display: flex; flex-direction: column; align-items: center; }
-        .boton { background: #1a1a1a; border: 2px solid #28a745; border-radius: 15px; padding: 7px; margin: 10px; width: 85%; max-width: 350px; text-decoration: none; color: white; display: flex; align-items: center; justify-content: flex-start; }
-        .boton img { width: 35px; margin: 0 15px; }
+        body { font-family: Arial, sans-serif; background-color: #000; color: white; text-align: center; margin: 0; padding: 0; }
+        .logo { width: 100vw; height: auto; margin-bottom: 20px; border-radius: 0; display: block; }
+        .contenedor { display: flex; flex-direction: column; align-items: center; padding-bottom: 30px; }
+        .boton { background: #1a1a1a; border: 2px solid #28a745; border-radius: 15px; padding: 10px; margin: 10px; width: 85%; max-width: 350px; text-decoration: none; color: white; display: flex; align-items: center; justify-content: flex-start; }
+        .boton img { 
+            width: 45px; 
+            height: 45px; 
+            object-fit: contain; 
+            margin: 0 15px; 
+            filter: drop-shadow(0px 0px 1px rgba(255,255,255,0.3));
+        }
     </style>
 </head>
 <body>
@@ -17,7 +23,7 @@
         <img src="FondoTarjetaRosaN.png" class="logo">
         
         <a href="https://wa.me/573504909699?text=Gracias%20por%20comunicarte%20con%20Rosa%20Negra%20en%20breve%20me%20comunicare%20contigo" class="boton">
-        <img src="IcoWhatsApp.png"> WhatsApp y Llamadas
+            <img src="IcoWhatsApp.png"> WhatsApp y Llamadas
         </a>
 
         <a href="mailto:rosanegraarteyeducacion@gmail.com" class="boton">
@@ -40,8 +46,8 @@
             <img src="IcoYoutube.png"> YouTube
         </a>
 
-        <a href="https://youtube.com/@rosanegraarteyeducacion" class="boton">
-            <img src="IcoCatalogo.png"> Nuestro Catalogo
+        <a href="#" class="boton">
+            <img src="IcoCatalogo.png"> Nuestro Catálogo
         </a>
     </div>
 </body>
